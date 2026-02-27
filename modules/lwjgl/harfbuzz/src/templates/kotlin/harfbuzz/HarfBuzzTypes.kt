@@ -441,7 +441,7 @@ val hb_font_get_glyph_origin_func_t = Module.HARFBUZZ.callback {
 
 val hb_font_get_glyph_origins_func_t = Module.HARFBUZZ.callback {
     hb_bool_t(
-        "hb_font_get_glyph_origin_func_t",
+        "hb_font_get_glyph_origins_func_t",
 
         hb_font_t.p("font"),
         nullable..opaque_p("font_data"),
